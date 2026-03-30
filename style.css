@@ -1,0 +1,126 @@
+/* 全局样式重置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Microsoft YaHei', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 20px;
+}
+
+/* 头部样式 */
+header {
+    text-align: center;
+    padding: 2rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+
+header p {
+    color: #666;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
+
+.social-links {
+    margin-top: 1.5rem;
+}
+
+.social-links a {
+    color: #333;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
+
+/* 通用部分样式 */
+section {
+    padding: 2rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #007bff;
+}
+
+/* 关于我部分样式 */
+#about p {
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+/* 技能部分样式 */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.skill-item {
+    background-color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.skill-item span:first-child {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* 项目经历部分样式 */
+.project-item {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.project-item h3 {
+    color: #007bff;
+    margin-bottom: 0.5rem;
+}
+
+/* 联系方式部分样式 */
+#contact p {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}

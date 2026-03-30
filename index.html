@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人主页</title>
+    <!-- 引入CSS样式文件 -->
+    <link rel="stylesheet" href="style.css">
+    <!-- 引入Font Awesome图标库 (可选，用于美化图标) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 头部区域 -->
+        <header>
+            <div class="profile-photo">
+                <img src="https://via.placeholder.com/150" alt="我的头像">
+            </div>
+            <h1>张三</h1>
+            <p>电子信息科学与技术专业学生 | 热爱编程与技术探索</p>
+            <div class="social-links">
+                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-weixin"></i></a>
+            </div>
+        </header>
+
+        <!-- 关于我部分 -->
+        <section id="about">
+            <h2>关于我</h2>
+            <p>你好！我是张三，一名电子信息科学与技术专业的学生。我对编程、嵌入式开发和物联网技术抱有浓厚的兴趣。我喜欢通过实践来学习新技术，并热衷于解决实际问题。在课余时间，我喜欢阅读技术博客、参与开源项目和进行个人编程项目。</p>
+        </section>
+
+        <!-- 技能部分 -->
+        <section id="skills">
+            <h2>技能</h2>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <span>编程语言:</span>
+                    <span>Python, C/C++, JavaScript, SQL</span>
+                </div>
+                <div class="skill-item">
+                    <span>开发工具:</span>
+                    <span>VS Code, Git, Arduino, STM32</span>
+                </div>
+                <div class="skill-item">
+                    <span>技术领域:</span>
+                    <span>嵌入式系统, 网页开发, 图像处理, 无人机编程</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 项目经历部分 -->
+        <section id="projects">
+            <h2>项目经历</h2>
+            <div class="project-item">
+                <h3>智能温湿度监测系统</h3>
+                <p>使用Arduino和DHT11传感器开发了一个温湿度监测系统，可以实时显示环境数据并通过串口上传到电脑。</p>
+            </div>
+            <div class="project-item">
+                <h3>个人博客网站</h3>
+                <p>使用HTML, CSS和JavaScript搭建了一个简单的个人博客网站，用于分享学习心得和技术文章。</p>
+            </div>
+        </section>
+
+        <!-- 联系方式部分 -->
+        <section id="contact">
+            <h2>联系我</h2>
+            <p>邮箱: zhangsan@email.com</p>
+            <p>电话: 138-xxxx-xxxx</p>
+        </section>
+    </div>
+
+    <!-- 引入JavaScript文件 -->
+    <script src="script.js"></script>
+</body>
+</html>
